@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Mulish:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,14 +15,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --general-black: #212121;
+  --general-white: #F2F2F2;
+  --general-blue: #27AED8;
+  --general-purple: #9F3DB7;
+  --nova-gradient: linear-gradient(90deg, rgba(39,174,216,1) 0%, rgba(159,61,183,0) 100%);
+  --nova-tittle: 'JetBrains Mono', monospace;
+  --drop-shadown-black: rgba(0, 0, 0, 0.2);
+
+    /* Fonts */
+    --font-baloo-2: "Baloo 2";
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--general-black);
 }
 
 h1 {

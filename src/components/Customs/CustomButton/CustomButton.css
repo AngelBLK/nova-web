@@ -1,0 +1,24 @@
+@import url(/src/index.css);
+
+.customs {
+    font-family: var(--font-baloo-2);
+    font-size: 24px;
+    border: 1px solid; /* Elimina el borde predeterminado */
+    border-image: linear-gradient(90deg, rgba(39,174,216,1) 0%, rgba(159,61,183,1) 100%); /* Define el degradado como imagen de borde */
+    border-image-slice: 1; /* Define cómo se divide la imagen de borde en las partes del borde */
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 10px; /* Radio del borde */
+    padding: 10px 50px;
+    outline: none;
+    color: var(--general-white);
+    text-decoration: none;
+    cursor: pointer;
+    
+    &:hover {
+        background: linear-gradient(90deg, rgba(39,174,216,1) 0%, rgba(159,61,183,1) 100%) ;
+    }
+}
+
+.customs__img {
+    margin-left: 20px;
+}

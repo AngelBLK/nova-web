@@ -1,0 +1,29 @@
+@import "../../index.css";
+
+.menu {
+  background-color: var(--general-black);
+  color: var(--general-white);
+  box-shadow: 0px 2px 4px var(--drop-shadown-black);
+}
+
+.menu__container {
+  margin: 0 24px;
+}
+
+.menu__brand {
+  color: var(--general-white);
+  font-family: --nova-tittle;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.color {
+  background-color: aliceblue;
+}
+
+.nav__item {
+  display: flex;
+  justify-content: center;
+  color: var(--general-white);
+
+}

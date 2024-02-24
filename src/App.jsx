@@ -1,10 +1,17 @@
-import './App.css'
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Components */
+import Menu from "./components/Menu/Menu";
+import Header from "./components/Header/Header";
 
 function App() {
-
   return (
-    <h1>Welcome to Nova Code Link</h1>
-  )
+    <>
+      <Menu></Menu>
+      <Header></Header>
+    </>
+  );
 }
 
-export default App
+export default App;
