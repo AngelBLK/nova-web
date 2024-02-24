@@ -21,11 +21,11 @@
   --general-blue: #27AED8;
   --general-purple: #9F3DB7;
   --nova-gradient: linear-gradient(90deg, rgba(39,174,216,1) 0%, rgba(159,61,183,0) 100%);
-  --nova-tittle: 'JetBrains Mono', monospace;
   --drop-shadown-black: rgba(0, 0, 0, 0.2);
 
     /* Fonts */
     --font-baloo-2: "Baloo 2";
+    --nova-tittle: 'JetBrains Mono';
 }
 
 body {
@@ -34,9 +34,5 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--general-black);
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  height: auto;
 }

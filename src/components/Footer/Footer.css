@@ -1,0 +1,8 @@
+@import url(/src/index.css);
+
+.footer__paragraph {
+    color: var(--general-white);
+    text-align: center;
+    font-family: var(--font-baloo-2);
+    font-size: 14px;
+}
